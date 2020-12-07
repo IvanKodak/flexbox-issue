@@ -1,0 +1,44 @@
+header {
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #ccd7da;
+  padding: 1.5rem;
+}
+ul {
+  flex-grow: 0.5;
+  margin-bottom: 1rem;
+}
+li {
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.nav-item + .nav-item {
+  margin-left: 50px;
+}
+
+h1 {
+  font-size: 1.6rem;
+  flex-grow: 0.5;
+  margin-bottom: 1rem;
+}
+
+.contactBtn {
+  background-color: #262626;
+  color: #ccd7da;
+  border: solid 2px #ccd7da;
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .nav-item + .nav-item {
+    margin-left: 5px;
+  }
+}
