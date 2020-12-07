@@ -21,7 +21,7 @@ li {
   margin-left: 50px;
 }
 
-h1 {
+.headerTitle {
   font-size: 1.6rem;
   flex-grow: 0.5;
   margin-bottom: 1rem;
